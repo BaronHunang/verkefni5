@@ -1,0 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  display: flex;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 20px;
+}
+
+.card {
+	background-color: #fff;
+	border: solid 2px;
+	border-radius: 5px;
+	border-color: #aaa;
+	line-height: 20px;
+	max-width: 470px;
+	max-height: 320px;
+	margin-bottom: 10px;
+	word-break: break-word;
+	overflow: scroll;
+	align-content: flex-start;
+	align-items: stretch;
+
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card__header {
+	display: flex;
+	padding: 16px;
+	align-items: flex-start;
+}
+.card__innihald {
+	display: flex;
+	flex-flow: row;
+	padding-left: 16px;
+	align-items: flex-start;
+}
+
+.card__mynd {
+	display: flex;
+	width: 150px;
+	padding-right: 20px;
+	margin-bottom: 16px;
+
+
+}
+
+.card__listi {
+	display: flex;
+	font-weight: bold;
+	list-style-type: none;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+li {
+	padding-left: 16px;
+}
+
+
+
+.card__front{
+	order: -1;
+}
